@@ -1,0 +1,166 @@
+
+  body{
+    font-family: 'Raleway', sans-serif;
+  }
+
+
+.navbar{
+    padding: 20px 30px;
+    background-color: #fff !important;
+  }
+  .navbar-brand{
+    font-size: 24px;
+    font-weight: 800;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 14px;
+  }
+
+  footer{
+    padding: 40px 0;
+    text-align: center;
+    color: #000;
+    font-size: 14px;
+    border-top: 1px solid rgba(51, 51, 51, 0.1);
+  }
+
+  .wel-text{
+    background-color: #fff;
+    padding: 100px 0;
+    font-weight: 500;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+
+  .content-text{
+      padding: 40px 0;
+  }
+
+  .content-text h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #222;
+  }
+
+  .content-text p{
+    line-height: 1.8;
+    font-size: 18px;
+    font-weight: 100;
+    padding-bottom: 50px; 
+  }
+
+  .porto-img img{
+    width: 100%;
+height: 600px;
+object-fit: cover;
+padding-bottom: 60px;
+}
+.porto-detail h2{
+   font-weight: 800;
+font-size: 26px;
+}
+.porto-detail p{
+font-size: 18px;
+line-height: 30px;
+opacity: 0.6;
+padding-top: 20px;
+    padding-bottom: 50px;
+}
+.porto-client{
+text-align: center;
+border-top: 1px solid rgba(51, 51, 51, 0.1);
+padding-top: 30px; 
+}
+.porto-client h4{
+   font-weight: 800;
+font-size: 14px;
+}
+.porto-client p{
+font-size: 24px;
+font-weight: 300;
+line-height: 30px;
+opacity: 0.6;
+padding-top: 10px;
+padding-bottom: 50px;
+}
+
+
+.porto-list{
+    padding-bottom: 150px;
+  }
+  .porto-item{
+    position: relative;
+        padding: 0;
+    margin-bottom: 15px;
+  }
+  .porto-item img{
+        width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  .porto-item .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .4s ease;
+  background-color: #000;
+}
+.porto-item:hover .overlay {
+  opacity: 0.85;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
+.wel-text-id{
+    background-color: #fff;
+    padding: 100px 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .wel-text-id div{
+    text-align: center;
+  }
+
+  
+  .wel-text-id h1{
+    color: #000;
+    font-weight: 800;
+    font-size: 30px;
+  }
+
+  .wel-text-id h5{
+    color: #000;
+    opacity: 0.6;
+    font-size: 18px;
+    width: 60%;
+    line-height: 1.5;
+    margin: 10px auto 0 auto;
+  }
